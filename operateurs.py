@@ -27,7 +27,7 @@ inferiorite_ou_egalite = 5 <= 10 #True
 
 possede_carte_bibliotheque = True
 argent = 25
-age = int(input("Quel âge avez vous ?"))
+age = int(input("Quel âge avez vous ?")) #INT TRANSFORME LA CHAINE DE CARACTERES ENTREES DANS L'INPUT EN CHIFFRE AFIN DETRE TRAITEE COMME TEL
 
 acces_bibliotheque = age >= 12 and possede_carte_bibliotheque
 
