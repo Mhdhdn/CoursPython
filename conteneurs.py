@@ -79,3 +79,4 @@ for adresse in carnet_dadresse.values(): #permet de trouver les adresses (values
 
 for key, value in carnet_dadresse.items(): #permet d'afficher les deux
     print(f"{key} : {value}")
+

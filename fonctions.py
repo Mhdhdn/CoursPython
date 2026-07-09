@@ -12,7 +12,6 @@ def faire_lasomme(ensemble):
         somme += n
 
     return somme 
-
-    print (somme)
+    print (f"la somme de l'ensemble {ensemble} est {somme}")
 
 faire_lasomme(ensemble_a)
