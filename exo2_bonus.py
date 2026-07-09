@@ -19,8 +19,8 @@ while True:
 
     for menu_nb, (nom_produit, prix) in elements:
         print(f"{menu_nb}. {nom_produit} [Prix : €{prix:.2f}]")
-    print("\nIl vous reste actuellement € {budget} ")
-    print("Total actuel de la commande: € {total} ")
+    print(f"\nIl vous reste actuellement € {budget} ")
+    print(f"Total actuel de la commande: € {total} ")
 
     choix_user = input("Que voulez vous aujourd'hui ?")
 
@@ -39,6 +39,7 @@ while True:
 
     commande.append(nom_produit)
     total += prix_produit
+    budget = budget - prix_produit
     print(f"Le produit '{nom_produit} a bien été à la commande")
 
 print("### COMMANDE ###")
