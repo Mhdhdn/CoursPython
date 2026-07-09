@@ -71,4 +71,11 @@ print(f"L'adresse de Lola est : {carnet_dadresse['Lola']}")
 
 new_person = input("entrer le nom")
 carnet_dadresse[new_person] = input("entrez l'adresse")
-for adresse in carnet_dadresse
+for prenom in carnet_dadresse.keys() :   #permet de trouver les noms (clés)
+    print (prenom)
+
+for adresse in carnet_dadresse.values(): #permet de trouver les adresses (values)
+    print(adresse)
+
+for key, value in carnet_dadresse.items(): #permet d'afficher les deux
+    print(f"{key} : {value}")
