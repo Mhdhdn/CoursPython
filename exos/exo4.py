@@ -6,7 +6,7 @@ while True :
     break
 print(notes_list)
 
-print("Votre note la plus élevée est : ", (max[notes_list]),"/20")
+print("Votre note la plus élevée est : ", (max(notes_list)),"/20")
 
 
 
